@@ -1,76 +1,76 @@
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "Verão ou inverno?",
         alternativas: [
             {
-                texto: "alternativa 1",
+                texto: "Verão",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "ótimo para praia",
+                    "pode ser insuportável"
                 ],
             },
               {
-                texto: "alternativa 2",
+                texto: "inverno",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "otimo pra ficar em casa",
+                    "dificil de fazer as obrigações"
                 ],
             }
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Netflix ou Youtube?",
         alternativas: [
             {
-                texto: "alternativa 1",
+                texto: "Netflix",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "bom para maratonar filmes e series",
+                    "muitas opções de escolha,sendo bom e ruim"
                 ],
             },
               {
-                texto: "alternativa 2",
+                texto: "Youtube",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "videos curtos e informativos",
+                    ""
                 ],
             }
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "café ou chá",
         alternativas: [
             {
-                texto: "alternativa 1",
+                texto: "café",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "bom para tomar de manhã para acordar",
+                    "pode causar insônia"
                 ],
             },
               {
-                texto: "alternativa 2",
+                texto: "chá",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "bom para dias frios",
+                    "ótimo pra relaxar sendo menos estimulante"
                 ],
             }
         ]
     },
     {
-        enunciado: "Pergunta 4",
+        enunciado: "ficar em casa ou sair?",
         alternativas: [
             {
-                texto: "alternativa 1",
+                texto: "ficar em casa",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "privacidade, bom pra descansar",
+                    "pode gerar isolamento"
                 ],
             },
               {
-                texto: "alternativa 2",
+                texto: "sair",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "mais socialização e experiências",
+                    "cansaço social"
                 ],
             }
         ]
