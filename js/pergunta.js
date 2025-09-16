@@ -1,6 +1,6 @@
 const perguntas = [
     {
-        enunciado: "Verão ou inverno?",
+        enunciado: "Você prefere verão ou inverno?",
         alternativas: [
             {
                 texto: "Verão",
@@ -19,7 +19,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Netflix ou Youtube?",
+        enunciado: "Você prefere Netflix ou Youtube?",
         alternativas: [
             {
                 texto: "Netflix",
@@ -32,13 +32,13 @@ const perguntas = [
                 texto: "Youtube",
                 afirmacao: [
                     "videos curtos e informativos",
-                    ""
+                    "mais variedade de assuntos"
                 ],
             }
         ]
     },
     {
-        enunciado: "café ou chá",
+        enunciado: "Você prefere café ou chá",
         alternativas: [
             {
                 texto: "café",
@@ -57,7 +57,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "ficar em casa ou sair?",
+        enunciado: "Você prefere ficar em casa ou sair?",
         alternativas: [
             {
                 texto: "ficar em casa",
@@ -76,20 +76,20 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Pergunta 5",
+        enunciado: "Você prefere dançar ou cantar?",
         alternativas: [
             {
-                texto: "alternativa 1",
+                texto: "dançar",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "boa forma de se exercitar",
+                    "cansa bastante"
                 ],
             },
               {
-                texto: "alternativa 2",
+                texto: "cantar",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "legal para se divertir",
+                    "as vezes vocẽ não é tão bom nisso"
                 ],
             }
         ]
