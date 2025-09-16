@@ -4,9 +4,9 @@ import {perguntas} from './perguntas.js';
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
-const caixaResultado = document.querySelector(".caixa-Resultado");
+const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
-const botaoJogarNovamente = document.querySelector(".novamente-btn")
+const botaoJogarNovamente = document.querySelector(".novamente-btn");
 const botaoIniciar = document.querySelector(".iniciar-btn");
 const telaInicial = document.querySelector(".tela-inicial");
 
@@ -46,7 +46,7 @@ function mostraAlternativa() {
     }
 }
 
-function respostaSelecionada(opcaoSelecionada) {}
+function respostaSelecionada(opcaoSelecionada) {
 const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
     historiaFinal += afirmacoes + " ";
    if(opcaoSelecionada.proxima !== undefined) {
