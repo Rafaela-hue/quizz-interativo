@@ -6,7 +6,7 @@ export const perguntas = [
                 texto: "nike",
                 afirmacao: 
                     "você tem bom gosto",
-                    "caro e não tão bom",
+                    "caro e não tão bom"
                 ],
                 proxima: 1,
             },
