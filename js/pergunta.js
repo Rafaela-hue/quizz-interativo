@@ -1,95 +1,103 @@
-const perguntas = [
+export const perguntas = [
     {
-        enunciado: "Você prefere verão ou inverno?",
+        enunciado: "Você prefere nike ou adidas?",                 
         alternativas: [
             {
-                texto: "Verão",
-                afirmacao: [
-                    "ótimo para praia",
-                    "pode ser insuportável"
+                texto: "nike",
+                afirmacao: 
+                    "você tem bom gosto",
+                    "caro e não tão bom",
                 ],
+                proxima: 1,
             },
-              {
-                texto: "inverno",
+            {
+                texto: "adidas",
                 afirmacao: [
-                    "otimo pra ficar em casa",
-                    "dificil de fazer as obrigações"
+                    "você é vaiado",
+                    "você não sabe escolher"
                 ],
+                proxima: 1,
             }
         ]
     },
     {
-        enunciado: "Você prefere Netflix ou Youtube?",
+        enunciado: "você prefere frio ou calor?",
         alternativas: [
             {
-                texto: "Netflix",
+                texto: "frio",
                 afirmacao: [
-                    "bom para maratonar filmes e series",
-                    "muitas opções de escolha,sendo bom e ruim"
+                    "pode ser muito frio",
+                    "bom para comer comidas quentes"
                 ],
+                proxima: 2,
             },
-              {
-                texto: "Youtube",
+            {
+                texto: "calor",
                 afirmacao: [
-                    "videos curtos e informativos",
-                    "mais variedade de assuntos"
+                    "ruim para dias de trabalho",
+                    "bom para ir para a praia"
                 ],
+                proxima: 2,
             }
         ]
     },
     {
-        enunciado: "Você prefere café ou chá",
+        enunciado: "youtube ou netflix?",
         alternativas: [
+            {
+                texto: "youtube",
+                afirmacao: [
+                    "bom para vídeos informatívos",
+                    "muitos anúcios"
+                ],
+                proxima: 3,
+            },
+            {
+                texto: "netflix",
+                afirmacao: [
+                    "bom para maratonar séries e filmes",
+                    "pouca opção de conteúdos"
+                ],
+                proxima: 3,
+            }
+        ]
+    },
+    {
+        enunciado: "Você prefere chá ou café?",
+        alternativas: [
+            {
+                texto: "chá",
+                afirmacao: [
+                    "bom para melhorar de doenças",
+                    "muito aguado e poucos sabores gostosos"
+                ],
+                proxima: 4,
+            },
             {
                 texto: "café",
                 afirmacao: [
-                    "bom para tomar de manhã para acordar",
-                    "pode causar insônia"
+                    "ótimo para dar energia de manhã",
+                    "pode ser muito amargo e dar ansiedade"
                 ],
-            },
-              {
-                texto: "chá",
-                afirmacao: [
-                    "bom para dias frios",
-                    "ótimo pra relaxar sendo menos estimulante"
-                ],
+                proxima: 4,
             }
         ]
     },
     {
-        enunciado: "Você prefere ficar em casa ou sair?",
+        enunciado: "você prefere comer em casa ou fora?",
         alternativas: [
             {
-                texto: "ficar em casa",
+                texto: "fora",
                 afirmacao: [
-                    "privacidade, bom pra descansar",
-                    "pode gerar isolamento"
+                    "comida boa sem precisar fazer",
+                    "pode passar do orçamento"
                 ],
             },
-              {
-                texto: "sair",
-                afirmacao: [
-                    "mais socialização e experiências",
-                    "cansaço social"
-                ],
-            }
-        ]
-    },
-    {
-        enunciado: "Você prefere dançar ou cantar?",
-        alternativas: [
             {
-                texto: "dançar",
+                texto: "em casa",
                 afirmacao: [
-                    "boa forma de se exercitar",
-                    "cansa bastante"
-                ],
-            },
-              {
-                texto: "cantar",
-                afirmacao: [
-                    "legal para se divertir",
-                    "as vezes vocẽ não é tão bom nisso"
+                    "além de fazer tem que limpar a bagunça",
+                    "econonômico"
                 ],
             }
         ]
